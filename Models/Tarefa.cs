@@ -12,5 +12,13 @@ namespace TrilhaApiDesafio.Models
         public string Descricao { get; set; }
         public DateTime Data { get; set; }
         public EnumStatusTarefa Status { get; set; }
+
+        public void UpdateTask(string titulo, string descricao, DateTime data, EnumStatusTarefa status)
+        {
+            Titulo = titulo;
+            Descricao = descricao;
+            Data = data;
+            Status = status;
+        }
     }
 }

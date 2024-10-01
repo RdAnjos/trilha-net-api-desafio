@@ -1,5 +1,6 @@
 using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 using TrilhaApiDesafio.Context;
 
 var builder = WebApplication.CreateBuilder(args);
